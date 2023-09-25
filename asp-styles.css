@@ -16,6 +16,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .founders-page {
@@ -23,7 +24,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 1rem 0;
+    margin: 1rem 0 0;
     padding: 1rem;
 }
 
@@ -60,4 +61,16 @@ body {
     line-height: 1.7;
     font-size: 1.2rem;
     color: #fff;
+}
+
+.home-page-cards-row .card{
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.home-page-cards-row .card .list-group-item{
+    color: #fff;
+    background: rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #fff;
 }
