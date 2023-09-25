@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+html {
+    font-size: calc(0.6838vh + 0.6838vw);
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.home-page {
+    background: linear-gradient(to top, #0073e6, #333333);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+}
+
+.founders-page {
+    background: linear-gradient(300deg, #0073e6, #333333);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 1rem 0;
+    padding: 1rem;
+}
+
+.title-headers {
+    color: #FFFFFF;
+    margin: 0rem auto 1rem;
+    padding: 2rem 1rem 0;
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 0.3rem;
+}
+
+.title-description {
+    color: #FFFFFF;
+    margin: 1rem auto;
+    padding: 0 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.founders-note-row{
+    margin: 0 auto;
+}
+
+.founders-note-card{
+    margin: 1rem auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem 3rem;
+    border-bottom: 0.5rem solid #b4aff5;
+    border-radius: 2rem;
+}
+
+.founders-note-card p{
+    line-height: 1.7;
+    font-size: 1.2rem;
+    color: #fff;
+}
