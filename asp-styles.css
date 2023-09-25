@@ -15,16 +15,16 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     padding-bottom: 1rem;
 }
 
 .founders-page {
-    background: linear-gradient(300deg, #0073e6, #333333);
+    background: linear-gradient(to top, #0073e6, #333333);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 1rem 0 0;
+    /* margin: 1rem 0 0; */
     padding: 1rem;
 }
 
@@ -67,10 +67,26 @@ body {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     color: #fff;
+    border-bottom: 0.5rem solid #b4aff5;
+    border-radius: 1rem;
+    margin: 0 auto;
 }
 
 .home-page-cards-row .card .list-group-item{
     color: #fff;
     background: rgba(0, 0, 0, 0);
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+}
+
+.home-page-cards-row .card-text{
+    font-size: 1.5rem;
+}
+
+.home-page-cards-row .list-group{
+    border: none;
+}
+
+.card-col {
+    margin: 1rem auto;
 }
